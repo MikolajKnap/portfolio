@@ -52,7 +52,7 @@ const Hero = () => {
                 Networks CCNA
             </motion.div>
             <div className="imageContainer">
-                <img src="/heromk.png" alt=""></img>
+                <img src="heromk.png" alt=""></img>
             </div>
         </div>
     )
