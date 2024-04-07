@@ -7,7 +7,7 @@ const Portfolio = () => {
   const [portfolioData, setPortfolioData] = useState([]);
 
   useEffect(() => {
-    fetch("/portfolioData.json")
+    fetch("portfolioData.json")
       .then((response) => response.json())
       .then((data) => setPortfolioData(data))
       .catch((error) => console.error("Error fetching portfolio data:", error));

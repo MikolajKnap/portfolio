@@ -49,7 +49,7 @@ const Services = () => {
   const isInView = useInView(ref, { margin: "-100px" });
 
   useEffect(() => {
-    fetch("/servicesData.json")
+    fetch("servicesData.json")
       .then((response) => response.json())
       .then((data) => setServicesData(data))
       .catch((error) => console.error("Error fetching services data:", error));
