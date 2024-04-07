@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Title 1",
+    "img": "https://images.pexels.com/photos/57007/pexels-photo-57007.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga eaque doloremque? Blanditiis, accusamus mollitia? Quidem id, molestiae eos maiores alias ipsa deleniti labore, mollitia rerum, ab sapiente vel suscipit!"
+  },
+  {
+    "id": 2,
+    "title": "Title 2",
+    "img": "https://images.pexels.com/photos/12320170/pexels-photo-12320170.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga eaque doloremque? Blanditiis, accusamus mollitia? Quidem id, molestiae eos maiores alias ipsa deleniti labore, mollitia rerum, ab sapiente vel suscipit!"
+  },
+  {
+    "id": 3,
+    "title": "Title 3",
+    "img": "https://images.pexels.com/photos/19226352/pexels-photo-19226352/free-photo-of-engineer-fixing-core-swith-in-data-center-room.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga eaque doloremque? Blanditiis, accusamus mollitia? Quidem id, molestiae eos maiores alias ipsa deleniti labore, mollitia rerum, ab sapiente vel suscipit!"
+  }
+]

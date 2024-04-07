@@ -1,0 +1,101 @@
+@import "../../app.scss";
+
+.services {
+  background: linear-gradient(180deg, #0c0c1d, #397fb1);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+
+  .textContainer {
+    flex: 1;
+    align-self: flex-end;
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+
+    p {
+      font-weight: 500;
+      font-size: 20px;
+      color: lightgray;
+      text-align: right;
+
+      @include mobile {
+        font-size: 10px;
+      }
+    }
+
+    hr {
+      width: 300px;
+      border: none;
+      border-top: 2px solid lightgray;
+
+      @include mobile {
+        width: 100px;
+      }
+    }
+  }
+
+  .titleContainer {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+    .title {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+
+      h1 {
+        font-size: 96px;
+        font-weight: 100;
+
+        @include mobile {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+
+  .listContainer {
+    flex: 2;
+    display: flex;
+    margin: auto;
+
+    @include mobile {
+      overflow: auto;
+      flex-direction: column;
+      font-size: 1rem;
+      align-items: center;
+      height: 70vh;
+    }
+
+    .box {
+      padding: 50px;
+      border: 0.5px solid gray;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      p {
+        max-height: 100px;
+        overflow-y: auto;
+      }
+
+      p::-webkit-scrollbar {
+        display: none;
+      }
+
+      @include mobile {
+        padding: 10px;
+        margin: 5px;
+        width: 80vw;
+      }
+    }
+  }
+}
