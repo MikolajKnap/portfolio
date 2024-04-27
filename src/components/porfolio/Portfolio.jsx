@@ -33,7 +33,7 @@ const Portfolio = () => {
             <motion.div className="textContainer" style={{ y }}>
               <h2 >{portfolioItem.title}</h2>
               <p>{portfolioItem.desc}</p>
-              <button>More in work</button>
+              <button><a href={portfolioItem.more} target="_blank">Learn more</a></button>
             </motion.div>
           </div>
         </div>

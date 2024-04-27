@@ -47,13 +47,13 @@ const Hero = () => {
                         <a href="#Contact"><motion.button whileHover={{ backgroundColor: "rgb(12, 36, 59)" }} variants={textVariants}>Contact Me</motion.button></a>
                     </motion.div>
                 </motion.div>
+                <div className="imageContainer">
+                    <img src="heromk.png" alt=""></img>
+                </div>
             </div>
             <motion.div className="slidingTextContainer" variants={sliderVariants} initial="initial" animate="animate">
                 Networks CCNA
             </motion.div>
-            <div className="imageContainer">
-                <img src="heromk.png" alt=""></img>
-            </div>
         </div>
     )
 }
