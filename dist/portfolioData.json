@@ -1,20 +1,23 @@
 [
   {
     "id": 1,
-    "title": "Title 1",
-    "img": "https://images.pexels.com/photos/57007/pexels-photo-57007.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga eaque doloremque? Blanditiis, accusamus mollitia? Quidem id, molestiae eos maiores alias ipsa deleniti labore, mollitia rerum, ab sapiente vel suscipit!"
+    "title": "Active Directory",
+    "img": "activedirectory.png",
+    "desc": "As part of my project, I've created a home Active Directory lab to familiarize myself with its functionalities. Using VirtualBox software and virtual machines running Windows Server 2016 and Windows 10, I've built a comprehensive learning environment. Throughout the project, I've gained foundational knowledge in Active Directory configuration, DHCP configuration, account and group management, profiles, and group policies.",
+    "more": "https://github.com/MikolajKnap/ActiveDirectoryHomeLab"
   },
   {
     "id": 2,
-    "title": "Title 2",
-    "img": "https://images.pexels.com/photos/12320170/pexels-photo-12320170.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga eaque doloremque? Blanditiis, accusamus mollitia? Quidem id, molestiae eos maiores alias ipsa deleniti labore, mollitia rerum, ab sapiente vel suscipit!"
+    "title": "Wireshark packet analysis ",
+    "img": "wshark.png",
+    "desc": "During this work I have analized different network traffic in Wireshark which includes for example telnet, ftp, tftp, voip, ospf passwords. I have used David Bombal youtube series dedicated to analizing network traffic using Wireshark in which He uploads pcap files to analize traffic yourself. After the project I have learned practical skills of how to analize network traffic and why security is key in modern networks.",
+    "more": ""
   },
   {
     "id": 3,
-    "title": "Title 3",
-    "img": "https://images.pexels.com/photos/19226352/pexels-photo-19226352/free-photo-of-engineer-fixing-core-swith-in-data-center-room.jpeg?auto=compress&cs=tinysrgb&w=600",
-    "desc": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique fuga eaque doloremque? Blanditiis, accusamus mollitia? Quidem id, molestiae eos maiores alias ipsa deleniti labore, mollitia rerum, ab sapiente vel suscipit!"
+    "title": "RSA encryption",
+    "img": "rsap.png",
+    "desc": "This is my mini project in which I wanted to use python to implement the RSA encryption algorithm and use it to encrypt a file on my computer. The project helped me better understand how asymmetric keys work, how the RSA algorithm works, and practice programming in Python.",
+    "more": "https://github.com/MikolajKnap/RSA_encryption_file"
   }
 ]
