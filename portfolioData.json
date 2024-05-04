@@ -15,6 +15,13 @@
   },
   {
     "id": 3,
+    "title": "Vulnerability Management",
+    "img": "nessus.png",
+    "desc": "In my Vulnerability Management HomeLab project I've configured Nessus Essentials to conduct scans, both without and with credentials, uncovering vulnerabilities in a Windows 10 virtual machine I've crafted using VirtualBox. Throughout this practice, I've simulated outdated software on the VM and remediated vulnerabilities.",
+    "more": "https://github.com/MikolajKnap/VulnerabilityManagementLab"
+  },
+  {
+    "id": 4,
     "title": "RSA encryption",
     "img": "rsap.png",
     "desc": "This is my mini project in which I wanted to use python to implement the RSA encryption algorithm and use it to encrypt a file on my computer. The project helped me better understand how asymmetric keys work, how the RSA algorithm works, and practice programming in Python.",
