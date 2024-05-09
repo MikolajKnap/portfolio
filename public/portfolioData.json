@@ -11,7 +11,7 @@
     "title": "Wireshark packet analysis ",
     "img": "wshark.png",
     "desc": "During this work I have analized different network traffic in Wireshark which includes for example telnet, ftp, tftp, voip, ospf passwords. I have used David Bombal youtube series dedicated to analizing network traffic using Wireshark in which He uploads pcap files to analize traffic yourself. After the project I have learned practical skills of how to analize network traffic and why security is key in modern networks.",
-    "more": ""
+    "more": "https://github.com/MikolajKnap/WiresharkPacketAnalysis"
   },
   {
     "id": 3,
@@ -26,5 +26,12 @@
     "img": "rsap.png",
     "desc": "This is my mini project in which I wanted to use python to implement the RSA encryption algorithm and use it to encrypt a file on my computer. The project helped me better understand how asymmetric keys work, how the RSA algorithm works, and practice programming in Python.",
     "more": "https://github.com/MikolajKnap/RSA_encryption_file"
+  },
+  {
+    "id": 5,
+    "title": "Feed Forward NN",
+    "img": "wip.png",
+    "desc": "Working on python project to build feed forward neural network for classification problem using pytorch.",
+    "more": "https://github.com/MikolajKnap"
   }
 ]
