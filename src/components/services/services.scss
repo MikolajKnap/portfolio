@@ -3,6 +3,7 @@
 .services {
   background: linear-gradient(180deg, #0c0c1d, #397fb1);
   height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -65,22 +66,25 @@
   .listContainer {
     flex: 2;
     display: flex;
+    flex-wrap: wrap;
     margin: auto;
+    justify-content: space-around;
 
     @include mobile {
       overflow: auto;
-      flex-direction: column;
+      flex-direction: row;
       font-size: 1rem;
       align-items: center;
       height: 70vh;
     }
 
     .box {
-      padding: 50px;
+      padding: 40px;
       border: 0.5px solid gray;
       display: flex;
       flex-direction: column;
-      justify-content: space-between;
+      width: 31%;
+      margin-top: 1rem;
 
       p {
         max-height: 100px;
@@ -94,7 +98,7 @@
       @include mobile {
         padding: 10px;
         margin: 5px;
-        width: 80vw;
+        width: 60vw;
       }
     }
   }

@@ -1,14 +1,18 @@
 [
   {
     "title": "Networking",
-    "description": "I am educating myself in the field of computer networks. Currently, it is my greatest passion and I associate my future with it. Recently I have passed the CCNA exam."
+    "description": "I am educating myself in the field of computer networks. I was able to pass the CCNA exam last year. Good understanding of how networks work is helpful in securing them."
   },
   {
-    "title": "Security Basics",
-    "description": "I am aware that cybersecurity is one of the most important fields in the current world, which is why I am also gaining knowledge in this topic to further develop my skills. Currently after CCNA I'm planning to get Security+ cert."
+    "title": "Security Analyst",
+    "description": "I'm using platform called Hack The Box on which I'm following SOC Analyst path to gain practical skills like SIEM, Windows Event Logs, Threat Hunting, Splunk. To gain fundamental knowledge I studied for and passed the CompTIA Security+ Exam"
   },
   {
     "title": "University",
-    "description": "I am a student at the Krakow University of Technology. I'm in my 3rd year at the moment. This summer I will be doing a student internship where I hope to gain work experience."
+    "description": "I am a student at the Krakow University of Technology. I'm in my 4th year at the moment so close to the engineering degree. I'm still thinking about pursuing masters degree but not quite sure because right now I'm focusing on practical knowledge."
+  },
+  {
+    "title": "Malware Development",
+    "description": "In my free time I like to learn about malware development. This topic is interesting because it helps me understand how it works. For now I created simple process injection malware but I want to try other techniques."
   }
 ]
