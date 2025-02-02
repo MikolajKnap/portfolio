@@ -8,7 +8,7 @@ import Contact from "./components/contact/Contact";
 
 const App = () => {
   return <div>
-    <section id="Homepage">
+    <section id="Homepage" style={{display: "flex", flexDirection: "column"}}>
       <Navbar></Navbar>
       <Hero></Hero>
     </section>

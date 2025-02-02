@@ -1,34 +1,48 @@
 [
   {
     "id": 1,
+    "title": "SOC Automation",
+    "img": "soc_auto_photo.png",
+    "desc": "This project aims to automate threat detection and incident response in a SOC environment using Wazuh, Shuffle, and TheHive. Wazuh (SIEM) detects security threats. Shuffle automates alert processing, enriches data using VirusTotal, and notifies SOC analysts via email. TheHive serves as an incident management platform. The project also includes proactive measures like blocking unauthorized SSH access (brute force attack) to enhance security.",
+    "more": "https://github.com/MikolajKnap/SOC-Automation"
+  },
+  {
+    "id": 2,
+    "title": "Malware Analysis",
+    "img": "mal_analys_photo.png",
+    "desc": "In this project, I analyze malware using a four-step approach: Basic Static and Dynamic Analysis, and Advanced Static and Dynamic Analysis. I use tools like IDA, Ghidra, x64dbg, and PeStudio to examine its structure and behavior. I also perform malware fingerprinting and extract Indicators of Compromise (IOCs). First malware I analyzed and documented on github is brbbot.",
+    "more": "https://github.com/MikolajKnap/MalwareAnalysis/tree/master/brbbot"
+  },
+  {
+    "id": 3,
     "title": "Malware Development",
     "img": "malimage.png",
     "desc": "Main goal of the project is to understand how malware works. My first project (which is available under Learn more) focuses on process-injection. I would like to learn more about maldev in the future. It is helpful because it gives me perspective on how malware tries to evade detection and also this topic is interesting to me so I really enjoy learning about it.",
     "more": "https://github.com/MikolajKnap/MalwareDevelopment/tree/master/process-injection"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Wireshark packet analysis",
     "img": "wshark.png",
     "desc": "During this work I have analized different network traffic in Wireshark which includes for example telnet, ftp, tftp, voip, ospf passwords. I have used David Bombal youtube series dedicated to analizing network traffic using Wireshark in which He uploads pcap files to analize traffic yourself. After the project I have learned practical skills of how to analize network traffic and why security is key in modern networks.",
     "more": "https://github.com/MikolajKnap/WiresharkPacketAnalysis"
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "Vulnerability Management",
     "img": "nessus.png",
     "desc": "In my Vulnerability Management HomeLab project I've configured Nessus Essentials to conduct scans, both without and with credentials, uncovering vulnerabilities in a Windows 10 virtual machine I've crafted using VirtualBox. Throughout this practice, I've simulated outdated software on the VM and remediated vulnerabilities.",
     "more": "https://github.com/MikolajKnap/VulnerabilityManagementLab"
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "Active Directory",
     "img": "activedirectory.png",
     "desc": "As part of my project, I've created a home Active Directory lab to familiarize myself with its functionalities. Using VirtualBox software and virtual machines running Windows Server 2016 and Windows 10, I've built a comprehensive learning environment. Throughout the project, I've gained foundational knowledge in Active Directory configuration, DHCP configuration, account and group management, profiles, and group policies.",
     "more": "https://github.com/MikolajKnap/ActiveDirectoryHomeLab"
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "Feed Forward NN",
     "img": "neural-net.png",
     "desc": "Python project to build feed forward neural network for classification problem using pytorch. This project was made for my computer science studies. Main goal of the project was to analyze different parameters in feedforward neural netowrk.",
