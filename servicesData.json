@@ -9,10 +9,14 @@
   },
   {
     "title": "University",
-    "description": "I am a student at the Krakow University of Technology. I'm in my 4th year at the moment so close to the engineering degree. I'm still thinking about pursuing masters degree but not quite sure because right now I'm focusing on practical knowledge."
+    "description": "Recently I've been able to obtain my Engineering Degree in Computer Engineering. Right now I started my journey once again but this time the goal is Masters Degree in Cybersecurity."
   },
   {
     "title": "Malware Development",
     "description": "In my free time I like to learn about malware development. This topic is interesting because it helps me understand how it works. For now I created simple process injection malware but I want to try other techniques."
+  },
+  {
+    "title": "Malware Analysis",
+    "description": "I like to discover how attackers think and what techniques they use. It is like battle between You and attacker in which attacker is trying to trick analyst and analyst is trying to evade those tricks. I've learned some techniques from SOC Analyst course but also even more from the Internet. Right now on my github I have documented my 'battle' with brbbots malware."
   }
 ]
